@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- 태초 컴퓨터 스타일 하트 아이콘 -->
+    <path
+        android:fillColor="@color/crt_green"
+        android:pathData="M54,30 C54,30 40,20 30,30 C20,40 30,60 54,80 C78,60 88,40 78,30 C68,20 54,30 54,30 Z"/>
+    
+    <!-- 픽셀 스타일 눈 -->
+    <rect
+        android:fillColor="@color/crt_black"
+        android:x="42dp"
+        android:y="45dp"
+        android:width="6dp"
+        android:height="6dp"/>
+    <rect
+        android:fillColor="@color/crt_black"
+        android:x="60dp"
+        android:y="45dp"
+        android:width="6dp"
+        android:height="6dp"/>
+    
+    <!-- 픽셀 스타일 입 -->
+    <rect
+        android:fillColor="@color/crt_black"
+        android:x="48dp"
+        android:y="60dp"
+        android:width="12dp"
+        android:height="4dp"/>
+    
+    <!-- 태초 컴퓨터 효과 - 스캔라인 -->
+    <rect
+        android:fillColor="@color/crt_scanline"
+        android:x="10dp"
+        android:y="10dp"
+        android:width="88dp"
+        android:height="1dp"/>
+    <rect
+        android:fillColor="@color/crt_scanline"
+        android:x="10dp"
+        android:y="20dp"
+        android:width="88dp"
+        android:height="1dp"/>
+    <rect
+        android:fillColor="@color/crt_scanline"
+        android:x="10dp"
+        android:y="30dp"
+        android:width="88dp"
+        android:height="1dp"/>
+    <rect
+        android:fillColor="@color/crt_scanline"
+        android:x="10dp"
+        android:y="40dp"
+        android:width="88dp"
+        android:height="1dp"/>
+    <rect
+        android:fillColor="@color/crt_scanline"
+        android:x="10dp"
+        android:y="50dp"
+        android:width="88dp"
+        android:height="1dp"/>
+    <rect
+        android:fillColor="@color/crt_scanline"
+        android:x="10dp"
+        android:y="60dp"
+        android:width="88dp"
+        android:height="1dp"/>
+    <rect
+        android:fillColor="@color/crt_scanline"
+        android:x="10dp"
+        android:y="70dp"
+        android:width="88dp"
+        android:height="1dp"/>
+    <rect
+        android:fillColor="@color/crt_scanline"
+        android:x="10dp"
+        android:y="80dp"
+        android:width="88dp"
+        android:height="1dp"/>
+    <rect
+        android:fillColor="@color/crt_scanline"
+        android:x="10dp"
+        android:y="90dp"
+        android:width="88dp"
+        android:height="1dp"/>
+    <rect
+        android:fillColor="@color/crt_scanline"
+        android:x="10dp"
+        android:y="100dp"
+        android:width="88dp"
+        android:height="1dp"/>
+</vector>

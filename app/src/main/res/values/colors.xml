@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 저질 8bit 흑백 색상 팔레트 -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    
+    <!-- 흑백 톤들 -->
+    <color name="pixel_black">#000000</color>
+    <color name="pixel_dark_gray">#202020</color>
+    <color name="pixel_gray">#404040</color>
+    <color name="pixel_medium_gray">#606060</color>
+    <color name="pixel_light_gray">#808080</color>
+    <color name="pixel_lighter_gray">#A0A0A0</color>
+    <color name="pixel_white">#FFFFFF</color>
+    
+    <!-- 테마 색상들 (흑백) -->
+    <color name="primary">#FFFFFF</color>
+    <color name="primary_variant">#A0A0A0</color>
+    <color name="secondary">#808080</color>
+    <color name="secondary_variant">#404040</color>
+    
+    <!-- 배경 색상들 -->
+    <color name="background_light">#FFFFFF</color>
+    <color name="background_dark">#000000</color>
+    <color name="background_dungeon">#101010</color>
+    <color name="background_paper">#F5F5F5</color>
+    
+    <!-- 텍스트 색상들 -->
+    <color name="text_primary">#000000</color>
+    <color name="text_secondary">#404040</color>
+    <color name="text_light">#FFFFFF</color>
+    <color name="text_muted">#606060</color>
+    
+    <!-- 저질 효과 색상들 -->
+    <color name="noise_light">#E0E0E0</color>
+    <color name="noise_dark">#202020</color>
+    <color name="scanline">#101010</color>
+    
+    <!-- 태초 컴퓨터 색상들 -->
+    <color name="crt_green">#00FF00</color>
+    <color name="crt_dark_green">#008000</color>
+    <color name="crt_amber">#FFB000</color>
+    <color name="crt_white">#FFFFFF</color>
+    <color name="crt_black">#000000</color>
+    <color name="crt_scanline">#001100</color>
+    <color name="crt_noise">#002200</color>
+</resources>
