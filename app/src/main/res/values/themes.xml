@@ -25,18 +25,18 @@
     <!-- 태초 컴퓨터 스타일 버튼 테마 -->
     <style name="PixelButton" parent="Widget.MaterialComponents.Button">
         <item name="android:background">@drawable/pixel_button_background</item>
-        <item name="android:textColor">@color/crt_green</item>
-        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/crt_white</item>
+        <item name="android:textSize">8sp</item>
         <item name="android:fontFamily">sans-serif-monospace</item>
-        <item name="android:padding">8dp</item>
-        <item name="android:layout_margin">2dp</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:layout_margin">1dp</item>
         <item name="android:textStyle">bold</item>
     </style>
     
     <!-- 태초 컴퓨터 스타일 텍스트뷰 테마 -->
     <style name="PixelTextView" parent="Widget.MaterialComponents.TextView">
         <item name="android:textColor">@color/crt_green</item>
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">12sp</item>
         <item name="android:fontFamily">sans-serif-monospace</item>
         <item name="android:lineSpacingMultiplier">1.0</item>
         <item name="android:textStyle">normal</item>
@@ -51,14 +51,14 @@
     
     <!-- 태초 컴퓨터 스타일 제목 텍스트뷰 -->
     <style name="PixelTitleText" parent="PixelTextView">
-        <item name="android:textSize">16sp</item>
+        <item name="android:textSize">14sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/crt_green</item>
     </style>
     
     <!-- 태초 컴퓨터 스타일 작은 텍스트뷰 -->
     <style name="PixelSmallText" parent="PixelTextView">
-        <item name="android:textSize">10sp</item>
+        <item name="android:textSize">8sp</item>
         <item name="android:textColor">@color/crt_dark_green</item>
     </style>
 </resources>

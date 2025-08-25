@@ -5,92 +5,85 @@
     android:viewportWidth="108"
     android:viewportHeight="108">
     
-    <!-- 태초 컴퓨터 스타일 하트 아이콘 -->
-    <path
-        android:fillColor="@color/crt_green"
-        android:pathData="M54,30 C54,30 40,20 30,30 C20,40 30,60 54,80 C78,60 88,40 78,30 C68,20 54,30 54,30 Z"/>
+    <!-- 태초 컴퓨터 스타일 - 픽셀 하트 (저해상도) -->
+    <!-- 하트 왼쪽 부분 -->
+    <rect android:fillColor="@color/crt_green" android:x="40dp" android:y="30dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="48dp" android:y="30dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="56dp" android:y="30dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="64dp" android:y="30dp" android:width="8dp" android:height="8dp"/>
     
-    <!-- 픽셀 스타일 눈 -->
-    <rect
-        android:fillColor="@color/crt_black"
-        android:x="42dp"
-        android:y="45dp"
-        android:width="6dp"
-        android:height="6dp"/>
-    <rect
-        android:fillColor="@color/crt_black"
-        android:x="60dp"
-        android:y="45dp"
-        android:width="6dp"
-        android:height="6dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="36dp" android:y="38dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="44dp" android:y="38dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="52dp" android:y="38dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="60dp" android:y="38dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="68dp" android:y="38dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="76dp" android:y="38dp" android:width="8dp" android:height="8dp"/>
     
-    <!-- 픽셀 스타일 입 -->
-    <rect
-        android:fillColor="@color/crt_black"
-        android:x="48dp"
-        android:y="60dp"
-        android:width="12dp"
-        android:height="4dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="32dp" android:y="46dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="40dp" android:y="46dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="48dp" android:y="46dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="56dp" android:y="46dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="64dp" android:y="46dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="72dp" android:y="46dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="80dp" android:y="46dp" android:width="8dp" android:height="8dp"/>
     
-    <!-- 태초 컴퓨터 효과 - 스캔라인 -->
-    <rect
-        android:fillColor="@color/crt_scanline"
-        android:x="10dp"
-        android:y="10dp"
-        android:width="88dp"
-        android:height="1dp"/>
-    <rect
-        android:fillColor="@color/crt_scanline"
-        android:x="10dp"
-        android:y="20dp"
-        android:width="88dp"
-        android:height="1dp"/>
-    <rect
-        android:fillColor="@color/crt_scanline"
-        android:x="10dp"
-        android:y="30dp"
-        android:width="88dp"
-        android:height="1dp"/>
-    <rect
-        android:fillColor="@color/crt_scanline"
-        android:x="10dp"
-        android:y="40dp"
-        android:width="88dp"
-        android:height="1dp"/>
-    <rect
-        android:fillColor="@color/crt_scanline"
-        android:x="10dp"
-        android:y="50dp"
-        android:width="88dp"
-        android:height="1dp"/>
-    <rect
-        android:fillColor="@color/crt_scanline"
-        android:x="10dp"
-        android:y="60dp"
-        android:width="88dp"
-        android:height="1dp"/>
-    <rect
-        android:fillColor="@color/crt_scanline"
-        android:x="10dp"
-        android:y="70dp"
-        android:width="88dp"
-        android:height="1dp"/>
-    <rect
-        android:fillColor="@color/crt_scanline"
-        android:x="10dp"
-        android:y="80dp"
-        android:width="88dp"
-        android:height="1dp"/>
-    <rect
-        android:fillColor="@color/crt_scanline"
-        android:x="10dp"
-        android:y="90dp"
-        android:width="88dp"
-        android:height="1dp"/>
-    <rect
-        android:fillColor="@color/crt_scanline"
-        android:x="10dp"
-        android:y="100dp"
-        android:width="88dp"
-        android:height="1dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="28dp" android:y="54dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="36dp" android:y="54dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="44dp" android:y="54dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="52dp" android:y="54dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="60dp" android:y="54dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="68dp" android:y="54dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="76dp" android:y="54dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="84dp" android:y="54dp" android:width="8dp" android:height="8dp"/>
+    
+    <rect android:fillColor="@color/crt_green" android:x="24dp" android:y="62dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="32dp" android:y="62dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="40dp" android:y="62dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="48dp" android:y="62dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="56dp" android:y="62dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="64dp" android:y="62dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="72dp" android:y="62dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="80dp" android:y="62dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="88dp" android:y="62dp" android:width="8dp" android:height="8dp"/>
+    
+    <rect android:fillColor="@color/crt_green" android:x="20dp" android:y="70dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="28dp" android:y="70dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="36dp" android:y="70dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="44dp" android:y="70dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="52dp" android:y="70dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="60dp" android:y="70dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="68dp" android:y="70dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="76dp" android:y="70dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="84dp" android:y="70dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="92dp" android:y="70dp" android:width="8dp" android:height="8dp"/>
+    
+    <!-- 하트 오른쪽 부분 -->
+    <rect android:fillColor="@color/crt_green" android:x="44dp" android:y="78dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="52dp" android:y="78dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="60dp" android:y="78dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="68dp" android:y="78dp" android:width="8dp" android:height="8dp"/>
+    
+    <rect android:fillColor="@color/crt_green" android:x="48dp" android:y="86dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="56dp" android:y="86dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_green" android:x="64dp" android:y="86dp" android:width="8dp" android:height="8dp"/>
+    
+    <!-- 픽셀 스타일 눈 (더 큰 픽셀) -->
+    <rect android:fillColor="@color/crt_black" android:x="44dp" android:y="46dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_black" android:x="68dp" android:y="46dp" android:width="8dp" android:height="8dp"/>
+    
+    <!-- 픽셀 스타일 입 (더 큰 픽셀) -->
+    <rect android:fillColor="@color/crt_black" android:x="52dp" android:y="62dp" android:width="8dp" android:height="8dp"/>
+    <rect android:fillColor="@color/crt_black" android:x="60dp" android:y="62dp" android:width="8dp" android:height="8dp"/>
+    
+    <!-- 태초 컴퓨터 효과 - 스캔라인 (더 두껍게) -->
+    <rect android:fillColor="@color/crt_scanline" android:x="10dp" android:y="10dp" android:width="88dp" android:height="2dp"/>
+    <rect android:fillColor="@color/crt_scanline" android:x="10dp" android:y="20dp" android:width="88dp" android:height="2dp"/>
+    <rect android:fillColor="@color/crt_scanline" android:x="10dp" android:y="30dp" android:width="88dp" android:height="2dp"/>
+    <rect android:fillColor="@color/crt_scanline" android:x="10dp" android:y="40dp" android:width="88dp" android:height="2dp"/>
+    <rect android:fillColor="@color/crt_scanline" android:x="10dp" android:y="50dp" android:width="88dp" android:height="2dp"/>
+    <rect android:fillColor="@color/crt_scanline" android:x="10dp" android:y="60dp" android:width="88dp" android:height="2dp"/>
+    <rect android:fillColor="@color/crt_scanline" android:x="10dp" android:y="70dp" android:width="88dp" android:height="2dp"/>
+    <rect android:fillColor="@color/crt_scanline" android:x="10dp" android:y="80dp" android:width="88dp" android:height="2dp"/>
+    <rect android:fillColor="@color/crt_scanline" android:x="10dp" android:y="90dp" android:width="88dp" android:height="2dp"/>
+    <rect android:fillColor="@color/crt_scanline" android:x="10dp" android:y="100dp" android:width="88dp" android:height="2dp"/>
 </vector>

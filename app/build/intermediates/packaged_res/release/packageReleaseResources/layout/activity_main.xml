@@ -21,7 +21,7 @@
             android:layout_height="wrap_content"
             android:text="@string/opening_narration"
             android:textColor="@color/crt_green"
-            android:textSize="20sp"
+            android:textSize="16sp"
             style="@style/PixelTextView"
             android:gravity="center"
             android:lineSpacingMultiplier="1.3"
@@ -52,10 +52,10 @@
             android:layout_height="wrap_content"
             android:text="챕터 제목"
             android:textColor="@color/crt_green"
-            android:textSize="24sp"
+            android:textSize="18sp"
             style="@style/PixelTitleText"
             android:gravity="center"
-            android:padding="12dp"
+            android:padding="6dp"
             android:background="@color/background_dark" />
 
         <!-- 텍스트 박스 -->
@@ -65,8 +65,8 @@
             android:layout_height="0dp"
             android:layout_weight="1"
             android:orientation="vertical"
-            android:padding="20dp"
-            android:layout_margin="12dp"
+            android:padding="12dp"
+            android:layout_margin="6dp"
             android:background="@drawable/text_box_background">
 
             <!-- NPC 이름 -->
@@ -76,9 +76,9 @@
                 android:layout_height="wrap_content"
                 android:text="NPC 이름"
                 android:textColor="@color/crt_green"
-                android:textSize="18sp"
+                android:textSize="14sp"
                 style="@style/PixelTitleText"
-                android:layout_marginBottom="12dp" />
+                android:layout_marginBottom="6dp" />
 
             <!-- 질문 -->
             <TextView
@@ -87,7 +87,7 @@
                 android:layout_height="wrap_content"
                 android:text="질문 텍스트"
                 android:textColor="@color/crt_green"
-                android:textSize="16sp"
+                android:textSize="12sp"
                 style="@style/PixelTextView"
                 android:lineSpacingMultiplier="1.2"
                 android:layout_marginBottom="24dp" />
@@ -99,7 +99,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:padding="12dp">
+            android:padding="6dp">
 
             <Button
                 android:id="@+id/btnChoice1"
@@ -107,7 +107,7 @@
                 android:layout_height="wrap_content"
                 android:text="선택지 1"
                 style="@style/PixelButton"
-                android:layout_marginBottom="6dp" />
+                android:layout_marginBottom="3dp" />
 
             <Button
                 android:id="@+id/btnChoice2"
@@ -115,7 +115,7 @@
                 android:layout_height="wrap_content"
                 android:text="선택지 2"
                 style="@style/PixelButton"
-                android:layout_marginBottom="6dp" />
+                android:layout_marginBottom="3dp" />
 
             <Button
                 android:id="@+id/btnChoice3"
@@ -144,7 +144,7 @@
             android:layout_height="wrap_content"
             android:text="엔딩 제목"
             android:textColor="@color/crt_green"
-            android:textSize="28sp"
+            android:textSize="20sp"
             style="@style/PixelTitleText"
             android:gravity="center"
             android:layout_marginBottom="24dp" />
@@ -155,7 +155,7 @@
             android:layout_height="wrap_content"
             android:text="엔딩 메시지"
             android:textColor="@color/crt_green"
-            android:textSize="18sp"
+            android:textSize="14sp"
             style="@style/PixelTextView"
             android:gravity="center"
             android:lineSpacingMultiplier="1.3"
