@@ -20,15 +20,15 @@
         <item name="android:windowContentOverlay">@null</item>
     </style><style name="PixelButton" parent="Widget.MaterialComponents.Button">
         <item name="android:background">@drawable/pixel_button_background</item>
-        <item name="android:textColor">@color/crt_white</item>
-        <item name="android:textSize">8sp</item>
+        <item name="android:textColor">@color/crt_black</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:fontFamily">sans-serif-monospace</item>
-        <item name="android:padding">6dp</item>
-        <item name="android:layout_margin">1dp</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_margin">4dp</item>
         <item name="android:textStyle">bold</item>
     </style><style name="PixelTextView" parent="Widget.MaterialComponents.TextView">
         <item name="android:textColor">@color/crt_green</item>
-        <item name="android:textSize">12sp</item>
+        <item name="android:textSize">16sp</item>
         <item name="android:fontFamily">sans-serif-monospace</item>
         <item name="android:lineSpacingMultiplier">1.0</item>
         <item name="android:textStyle">normal</item>
@@ -37,10 +37,10 @@
         <item name="android:textColorPrimary">@color/text_primary</item>
         <item name="android:textColorSecondary">@color/text_secondary</item>
     </style><style name="PixelTitleText" parent="PixelTextView">
-        <item name="android:textSize">14sp</item>
+        <item name="android:textSize">24sp</item>
         <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/crt_green</item>
     </style><style name="PixelSmallText" parent="PixelTextView">
-        <item name="android:textSize">8sp</item>
+        <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/crt_dark_green</item>
     </style></file><file path="/Users/seyoonwang/Documents/mindquest/app/src/main/res/values/strings.xml" qualifiers=""><string name="app_name">내 마음의 던전</string><string name="opening_narration">너는 지금까지 몇 번이나 스스로에게 물었지.\n나는 누구인가?</string><string name="start_game">게임 시작</string><string name="chapter1_title">기억의 방</string><string name="memory_spirit_question">어릴 적 네가 가장 좋아하던 건 뭐였지?</string><string name="memory_choice1">게임기 앞에서 밤새던 기억</string><string name="memory_choice2">친구들과 뛰어놀던 운동장</string><string name="memory_choice3">조용히 책을 읽던 순간</string><string name="chapter2_title">거울의 복도</string><string name="mirror_self_question">사람들이 널 어떻게 본다고 생각하지?</string><string name="mirror_choice1">밝고 재밌는 사람</string><string name="mirror_choice2">차분하고 신중한 사람</string><string name="mirror_choice3">조금 이상하지만 특별한 사람</string><string name="chapter3_title">심연의 호수</string><string name="anxiety_shadow_question">너는 무엇을 가장 두려워하니?</string><string name="anxiety_choice1">혼자가 되는 것</string><string name="anxiety_choice2">실패하는 것</string><string name="anxiety_choice3">진짜 나를 들키는 것</string><string name="chapter4_title">불꽃의 탑</string><string name="fire_spirit_question">지금 네 안에서 가장 뜨겁게 불타는 건 뭐지?</string><string name="fire_choice1">성공과 인정</string><string name="fire_choice2">새로운 지식과 탐험</string><string name="fire_choice3">누군가와의 진한 연결</string><string name="chapter5_title">별의 정원</string><string name="star_child_question">죽기 전에 꼭 이루고 싶은 건?</string><string name="star_choice1">세상에 나만의 발자취 남기기</string><string name="star_choice2">사랑하는 사람과 평온한 시간</string><string name="star_choice3">새로운 세계를 끝없이 경험하기</string><string name="final_boss_title">심연의 나</string><string name="shadow_self_intro">넌 아직 날 직면하지 않았지.\n내가 진짜 너야.</string><string name="shadow_self_question">넌 결국 인정받고 싶었던 거잖아.</string><string name="shadow_choice1">그렇지 않아</string><string name="shadow_choice2">맞아...</string><string name="shadow_choice3">모르겠어</string><string name="ending_brave">용감한 나</string><string name="ending_contemplative">사색하는 나</string><string name="ending_free">자유로운 나</string><string name="ending_final_message">너는 이미 너 자신을 알고 있었다.\n이제 그 답을 살아내면 된다.</string><string name="continue_text">계속하기</string><string name="restart_text">다시 시작</string><string name="exit_text">나가기</string><string name="loading_text">로딩 중...</string><string name="stat_creativity">창의성</string><string name="stat_sociability">사교성</string><string name="stat_concentration">집중력</string><string name="stat_courage">용기</string><string name="stat_anxiety">불안</string><string name="stat_passion">열정</string><string name="stat_curiosity">호기심</string><string name="stat_relationship">관계</string></file><file name="backup_rules" path="/Users/seyoonwang/Documents/mindquest/app/src/main/res/xml/backup_rules.xml" qualifiers="" type="xml"/><file name="data_extraction_rules" path="/Users/seyoonwang/Documents/mindquest/app/src/main/res/xml/data_extraction_rules.xml" qualifiers="" type="xml"/><file name="ic_launcher" path="/Users/seyoonwang/Documents/mindquest/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" qualifiers="anydpi-v26" type="mipmap"/><file name="ic_launcher_round" path="/Users/seyoonwang/Documents/mindquest/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" qualifiers="anydpi-v26" type="mipmap"/></source></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/seyoonwang/Documents/mindquest/app/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="debug" generated-set="debug$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/seyoonwang/Documents/mindquest/app/src/debug/res"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated$Generated" generated="true" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/seyoonwang/Documents/mindquest/app/build/generated/res/resValues/debug"/></dataSet><dataSet aapt-namespace="http://schemas.android.com/apk/res-auto" config="generated" generated-set="generated$Generated" ignore_pattern="!.svn:!.git:!.ds_store:!*.scc:.*:&lt;dir>_*:!CVS:!thumbs.db:!picasa.ini:!*~"><source path="/Users/seyoonwang/Documents/mindquest/app/build/generated/res/resValues/debug"/></dataSet><mergedItems/></merger>

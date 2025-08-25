@@ -1,4 +1,0 @@
-#Mon Aug 25 11:12:24 KST 2025
-base.0=/Users/seyoonwang/Documents/mindquest/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
